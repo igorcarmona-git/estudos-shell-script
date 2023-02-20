@@ -1,0 +1,63 @@
+#!/bin/bash
+
+ls --> Visualizar as pastas.
+ls -a --> Sempre que invadir um sistema, coloque o comando "ls -a", visualizar pastas/arquivos  ocultas.
+ls -la --> Ele lista os arquivos em lista, com informações detalhadas e ocultas.
+------------------------------------------------------------------------------------------------------------
+
+whoami --> Mostra quem você é no sistema.
+
+sudo --> Permite executar tarefas que necessitam de permissao de root.
+
+grep peixe arquivo.txt --> Irá procurar pela palavra peixe no arquivo.
+
+pwd --> Permite visualizar o local onde você está.
+
+cd --> Entra em diretórios.
+cd .. --> Volta os diretórios.
+
+mkdir --> Cria pastas.
+rmdir --> Apaga uma pasta.
+
+man --> Comando de manual sobre outros comandos.
+
+apropos oquequerfazer --> Pesquisa pela palavra as possíveis forma de executar o que você quero.
+
+tail -n arquivo.txt --> analisa as últimas linhas de um arquivo. Por padrão, são 10 linhas que aparecem no final.
+head -n arquivo.txt --> usado para ver as primeiras linhas de um arquivo de texto.
+
+diff arquivo1.ext arquivo2.ext --> Compara o conteudo de dois arquivos linha por linha, depois mostra na tela as 
+                                linhas que não são comuns entre eles.
+
+locate -i school*note --> -i faz com que procure pelo arquivo não se importando com sensitive case. *, faz com que
+                        você procure por qualquer arquivo que tenho as duas palavras.
+
+find /home -name notes.txt --> Procura pelo arquivo notes.txt dentro de um diretório especifico /home.
+find / -type d -name notes.txt --> Procura por diretórios que tenha notes.txt.
+
+tar -cvzf arquivo.tar.gz /home/pasta --> Faz a compactação de arquivos da home/pasta
+tar -xvf arquivo.tar.gz --> Faz a descompactação do arquivo na pasta atual.
+tar -xvf arquivo.tar.gz -C /home --> Faz a descompactação do arquivo para uma determinada pasta.
+
+chown linuxuser2 file.ext --> Permite voce mudar ou transferir a propriedade de um arquivo para outro usuário.
+                        file.ext o linuxuser2 vai ser o novo dono.
+
+wget url --> Baixa arquivos da internet.
+
+uname --> Mostra informações detalhadas sobre seu sistema linux.
+
+top --> Semelhante ao gerenciador de tarefas.
+kill -9 pidNumber --> Força o programa a encerrar imediatamente.
+
+hostname -I --> Mostra o IP da sua rede.
+
+useradd igorcarmona passwd 12345 --> Cria um usuário e senha.
+userdel igorcarmona --> Deleta um usuário.
+
+-----------------------------------------------------------------------------------------------------------------
+
+Dicas e truques:
+
+CTRL + A --> Move para o inicio da linha
+CTRL + E --> Move para o fim da linha
+comando1; comando2 && comando3 --> &&, faz com que o comando3 só seja executado se os demais forem executados.
