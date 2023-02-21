@@ -16,6 +16,8 @@ pwd --> Permite visualizar o local onde você está.
 cd --> Entra em diretórios.
 cd .. --> Volta os diretórios.
 
+cp /home/kali/Desktop/test.txt . --> Copia determinado arquivo para a pasta atual onde eu estou usando o “ . “.
+
 mkdir --> Cria pastas.
 rmdir --> Apaga uma pasta.
 
